@@ -8,6 +8,7 @@ var req = require("request");
 var load = require("ora");
 var box = require("boxen");
 console.log(war.green(box("    [-=- About -=-]\n" + "[=====================]\n" + "Coder : Fajar Firdaus\n" + "FB : Fajar Firdaus\n" + "IG : fajar_firdaus_7\n" + "YT : iTech7732\n" + "Github : FajarTheGGman\n" + "[=====================]", {padding: 1})))
+console.log(war.red("[!] Report error to my social media account"));
 const ad = r.createInterface({
 	input : process.stdin,
 	output : process.stdout
