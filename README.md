@@ -1,7 +1,7 @@
 # WhoAreYou
 #Simple program to track someone by send malicious link
 
-![alt text](https://github.com/FajarTheGGman/WhoAreYou/blob/master/.img/Screenshot_2019-05-15-18-58-06-356_com.termux.png)
+![alt text](https://github.com/FajarTheGGman/WhoAreYou/blob/master/.img/Screenshot_2019-05-15-20-15-07-067_com.termux.png)
 
 #Tutorial install
 <pre>
